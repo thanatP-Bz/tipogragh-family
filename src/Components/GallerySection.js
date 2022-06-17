@@ -9,19 +9,20 @@ const GallerySection = () => {
   return (
     <section id="gallery" className="py-5">
       <div className="container grid grid-cols-1 gap-8 py-0 mx-auto space-y-0 space-x-0 justify-center items-center md:flex-row md:mt-10 md:grid-cols-4 ">
-        <div className="img">
+        <div className="flex justify-center">
           <a href="./">
             <img
-              className="border-white border-8 hover:shadow-xl transition-all duration-300 object-cover"
+              className="border-white border-8 md:mx-0 w-4/5 md:w-full mx-10 hover:shadow-xl transition-all duration-300 object-cover"
               src={img1}
               alt=""
             />
           </a>
         </div>
+
         <div className="img">
           <a href="./">
             <img
-              className="border-white border-8 hover:shadow-xl transition-all duration-300 object-cover"
+              className="border-white border-8 hover:shadow-xl md:mx-0 w-4/5 md:w-full mx-10 transition-all duration-300 object-cover"
               src={img2}
               alt=""
             />
@@ -30,7 +31,7 @@ const GallerySection = () => {
         <div className="img">
           <a href="./">
             <img
-              className="border-white border-8 hover:shadow-xl transition-all duration-300 object-cover"
+              className="border-white border-8 hover:shadow-xl md:mx-0 w-4/5 md:w-full mx-10 transition-all duration-300 object-cover"
               src={img3}
               alt=""
             />
@@ -39,7 +40,7 @@ const GallerySection = () => {
         <div className="img">
           <a href="./">
             <img
-              className="border-white border-8 hover:shadow-xl transition-all duration-300 object-cover"
+              className="border-white border-8 hover:shadow-xl md:mx-0 w-4/5 md:w-full mx-10 transition-all duration-300 object-cover"
               src={img4}
               alt=""
             />
