@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex flex-col mb-10 md:w-1/2 items-center">
         <div className="space-y-12 py-6">
           <h1 className="mx-2 text-3xl font-bold text-center md:text-4xl md:text-left md:justify-center">
-            Thank you Tiprogragh Family
+            Welcome to my website
           </h1>
           <p className="text-md md:text-left text-center max-w-md">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-start">
             <a
               href="./page/Gallery.js"
-              className="text-white shadow-xl font-bold p-3 py-4 px-10 bg-pink-300 rounded-full hover:bg-slate-600"
+              className="text-white shadow-xl font-bold p-2 py-3 px-10 bg-pink-300 rounded-full hover:bg-slate-600"
             >
               Read More
             </a>

@@ -21,5 +21,8 @@ module.exports = {
   colors: {
     rose: "#f9f1f0",
   },
+  extends: {
+    "leading-12": "line-height: 3rem",
+  },
   plugins: [],
 };
