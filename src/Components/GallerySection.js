@@ -50,7 +50,7 @@ const GallerySection = () => {
       <div className="flex items-center justify-center pt-16">
         <a
           href="./page/Gallery.js"
-          className="text-white shadow-xl font-bold p-3 py-4 px-10 bg-pink-300 rounded-full hover:bg-slate-600"
+          className="text-white shadow-xl font-bold p-3 py-4 px-10 bg-[#74b9ff] rounded-full hover:bg-slate-600"
         >
           Read More
         </a>
