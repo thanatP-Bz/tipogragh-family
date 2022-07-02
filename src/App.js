@@ -1,9 +1,9 @@
 import Home from "./page/Home";
-
+import Gallery from "./page/Gallery";
 function App() {
   return (
     <div>
-      <Home />
+      <Gallery />
     </div>
   );
 }
